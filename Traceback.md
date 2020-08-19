@@ -1,8 +1,7 @@
 # Traceback
-#Tables of contents
+# Tables of contents
 1. [Escaneo](#escaneo)
 2. [User Flag](#user-flag)
-
 2.1 [Escalada de privilegios](#escalada-de-privilegios)
 3. [Root Flag](#root-flag)
 ## Escaneo
@@ -24,7 +23,7 @@ Nmap done: 1 IP address (1 host up) scanned in 21.35 seconds
 
 ```
 
-Con el primer escaneo nos ha devuelto los puertos **22**y **80** abiertos. Ahora vamos a realizar un escaneo mas completo de estos puertos. Con la opciones "-sC" lanzara los scripts y "-sV" versiones. 
+Con el primer escaneo nos ha devuelto los puertos **22** y **80** abiertos. Ahora vamos a realizar un escaneo mas completo de estos puertos. Con la opciones "-sC" lanzara los scripts y "-sV" versiones. 
 
 
 ``` bash
@@ -325,16 +324,6 @@ Welcome to Xh4H land
 
 Failed to connect to https://changelogs.ubuntu.com/meta-release-lts. Check your Internet connection or proxy settings
 
-Last login: Fri Jan 24 03:43:29 2020
-root@traceback:~# cat root.txt | cut -c0-20
-cut: byte/character positions are numbered from 1
-Try 'cut --help' for more information.
-root@traceback:~# cat root.txt | cut -c 0-20
-cut: byte/character positions are numbered from 1
-Try 'cut --help' for more information.
-root@traceback:~# cat root.txt | cut c 0-20
-cut: you must specify a list of bytes, characters, or fields
-Try 'cut --help' for more information.
 root@traceback:~# cat root.txt | cut -c1-20
 695a5865b0314355ca08
 
