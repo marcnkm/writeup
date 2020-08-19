@@ -50,11 +50,7 @@ Nmap done: 1 IP address (1 host up) scanned in 9.11 seconds
 
 ## User flag
 
-Si nos conecamos al puerto 80 podemos ver la web:
-
-![imagen2](./images/web1.png)
-
-Si revisamos el codigo fuente de la web, nos fijamos en el comentario: Some of the best web shells that you might need
+Si nos conecamos al puerto 80 podemos ver la web. Si revisamos el codigo fuente de la web, nos fijamos en el comentario: Some of the best web shells that you might need
 
 ``` html
 <body>
